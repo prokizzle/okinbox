@@ -1,0 +1,36 @@
+.webpageContainer {
+    height: 100%;
+}
+.webPageView {
+    height: 100%;
+}
+#web-page-webview {
+    height: 700px;
+    /* width: 200px; */
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+#web-page-webview-sm {
+    height: 2px;
+    width: 2px;
+    float: left;
+}
+
+.sidebar {
+    height: 100%;
+}
+
+#inboxHelper {
+    height: 700px;
+    /* width: 200px; */
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "babel src -d lib",
+    "watch": "babel src -d lib --watch",
+    "reset": "rm -rf node_modules && npm install"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "electron": "^1.4.1"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-electron-webview": "*",
+    "lodash": "^4.16.4"
+  }
+}
